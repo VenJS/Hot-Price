@@ -6,5 +6,5 @@ window.addEventListener("DOMContentLoaded", () => {
 
 const img = document.createElement('IMG');
 img.setAttribute('src', 'images/flame.png');
-document.querySelectorAll('.price').appendChild(img);
+document.querySelectorAll('.price hot').appendChild(img);
 console.log(img);
