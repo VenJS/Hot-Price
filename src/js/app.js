@@ -6,11 +6,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
 function addImg() {
   const hotPrice = document.querySelectorAll('.hot');
-  const image = document.createElement('img');
-  image.src = 'images/flame.png';
   for (let index = 0; index < hotPrice.length; index++) {
+    const image = document.createElement('img');
+    image.src = 'images/flame.png';
     hotPrice[index].appendChild(image);
-    
   }
 }
 
