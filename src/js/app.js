@@ -8,7 +8,10 @@ function addImg() {
   const hotPrice = document.querySelectorAll('.hot');
   const image = document.createElement('img');
   image.src = 'images/flame.png';
-  hotPrice[0].appendChild(image);
+  for (let index = 0; index < hotPrice.length; index++) {
+    hotPrice[index].appendChild(image);
+    
+  }
 }
 
 addImg()
