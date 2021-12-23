@@ -5,9 +5,10 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 function addImg() {
+  const hotPrice = document.querySelectorAll('.hot');
   const image = document.createElement('img');
   image.src = 'images/flame.png';
-  document.querySelector('.hot').appendChild(image);
+  hotPrice[0].appendChild(image);
 }
 
 addImg()
